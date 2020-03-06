@@ -3,7 +3,6 @@ package listConcepts_Java_collection_frameworks;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-
 public class HashMapConcepts {
 
 	@SuppressWarnings("rawtypes")
@@ -49,12 +48,9 @@ public class HashMapConcepts {
 		Employee e2 = new Employee("Ram", 22, "QA");
 		Employee e3 = new Employee("Roy", 23, "Manager");
 		
-		
 		emp.put(1, e1);
 		emp.put(2, e2);
 		emp.put(3, e3);
-		
-		
 		
 		// traverse the hasmap
 		for(Entry <Integer,Employee> m: emp.entrySet()) {
@@ -64,12 +60,5 @@ public class HashMapConcepts {
 			System.out.println(key +" Info");
 			System.out.println(value.name +"  " + value.age +"  " + value.department);
 		}
-		
-
-		
-		
-		
-
 	}
-
 }
