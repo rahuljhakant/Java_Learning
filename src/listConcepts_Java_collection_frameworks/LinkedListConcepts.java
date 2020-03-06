@@ -77,8 +77,6 @@ public class LinkedListConcepts {
 		for(String str:ll) {
 			System.out.println(str);
 		}
-		
-		
 
 	}
 
