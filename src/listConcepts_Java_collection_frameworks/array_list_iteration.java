@@ -42,15 +42,12 @@ public class array_list_iteration {
 			System.out.println(swaps);
 		});
 		
-		
 		System.out.println("******************");
-
 		
 		// using simple for each loop
 		for(String eArrayList : tvSeries ) {
 			System.out.println(eArrayList);
 		}
-		
 		
 		System.out.println("******************");
 
@@ -68,10 +65,6 @@ public class array_list_iteration {
 		while(listIterator.hasPrevious()) {
 			String showString= listIterator.previous();
 			System.out.println(showString);
-		}
-
-		
-			
-		}
-		
+		}		
+	}
 	}
