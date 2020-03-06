@@ -9,7 +9,6 @@ public class ArrayListConcept {
 	public static <E> void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
 		// dynamic array Array List
 		// 1. It can cointain duplicate values
 		// 2. It maintaines insertion order
@@ -22,7 +21,6 @@ public class ArrayListConcept {
 		arrayList.add(20);
 		arrayList.add(30);
 		arrayList.add(40);
-		
 		
 		System.out.println(arrayList.size()); // size of array
 		
@@ -116,9 +114,6 @@ public class ArrayListConcept {
 	    	System.out.println(ar5.get(i));
 	    }
 	    
-	    
-	    
-	    
 	    System.out.println("***********************");
 
 		// retain all
@@ -140,19 +135,5 @@ public class ArrayListConcept {
 	    for(int i=0;i<ar7.size();i++) {
 	    	System.out.println(ar7.get(i));
 	    }
-	    
-	    
-	    
-	    
-	    
-		
-		
-		
-		
-		
-		
-		
-
 	}
-
 }
