@@ -6,7 +6,6 @@ public class Employee {
 	int age;
 	String department;
 	
-	
 	public Employee(String name,int age,String department) {
 		// TODO Auto-generated constructor stub
 		this.name=name;
