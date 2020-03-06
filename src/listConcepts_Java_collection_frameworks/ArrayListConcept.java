@@ -15,7 +15,6 @@ public class ArrayListConcept {
 		// 2. It maintaines insertion order
 		// 3. Synchronised
 		// 4. Randon access to fetch the element because it store the value based on index.
-		// 5. 
 		
 		ArrayList arrayList = new ArrayList();	
 		
