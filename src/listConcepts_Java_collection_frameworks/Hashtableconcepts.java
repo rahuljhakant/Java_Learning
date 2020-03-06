@@ -5,8 +5,6 @@ import java.util.Hashtable;
 import java.util.Map.Entry;
 import java.util.Set;
 
-
-
 public class Hashtableconcepts {
 
 	@SuppressWarnings({ "rawtypes", "unchecked"})
@@ -18,9 +16,7 @@ public class Hashtableconcepts {
 		// Stores in Key value pair
 		// Key -----> object ------> hashcode
 		
-		
 		// Hashcode is a java object number, it's a 32 bit signed integer number.
-		
 		
 		Hashtable h1 = new Hashtable();
 		h1.put(1, "Test");
@@ -29,7 +25,6 @@ public class Hashtableconcepts {
 		
 		// Create a clone copy or shallow copy
 		
-
 		Hashtable h2 = new Hashtable();
 		h2=(Hashtable) h1.clone();
 		
@@ -66,7 +61,6 @@ public class Hashtableconcepts {
 		Set s = st.entrySet();
 		System.out.println(s);
 		
-		
 		// To Check if both the hashtables are equal or not
 		
 		Hashtable st1 = new Hashtable();
@@ -83,13 +77,6 @@ public class Hashtableconcepts {
 		System.out.println(st1.get(1));
 		
 		// Get the hash value
-		System.out.println(st1.hashCode());
-	
-		
-		
-		
-		
-		
+		System.out.println(st1.hashCode());		
 	}
-
 }
