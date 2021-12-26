@@ -1,5 +1,3 @@
-package basics;
-
 /*
 A static block in a program is a set of statements which are executed by the JVM (Java Virtual Machine) before 
 the main method. At the time of class loading, if we want to perform any task we can define that task inside the 
@@ -23,4 +21,5 @@ class a_static_blocks {
   static {
     System.out.println("This will get executed before main 3");
   }
+  
 }
