@@ -31,7 +31,30 @@ public class c_variables {
         return "";
     }
 
+
     public static void main(String[] args) {
 
+        // This is an enum data type
+        enum vowels {a, e, i, o, u}
+
+        for (vowels v : vowels.values()) {
+            switch (v) {
+                case a:
+                    System.out.println("a is a vowel.");
+                    break;
+                case e:
+                    System.out.println("e is a vowel.");
+                    break;
+                case i:
+                    System.out.println("i is a vowel.");
+                    break;
+                case o:
+                    System.out.println("o is a vowel.");
+                    break;
+                case u:
+                    System.out.println("u is a vowel.");
+                    break;
+            }
+        }
     }
 }
