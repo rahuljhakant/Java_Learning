@@ -10,6 +10,7 @@
  * The Initializer block is copied into Java compiler and then to every constructor. The initialization block is executed before the code in
  * the constructor.
  * */
+package Java_Basics;
 
 public class b_Initializer_Block {
 

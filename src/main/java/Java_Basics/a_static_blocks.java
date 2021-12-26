@@ -4,6 +4,7 @@
  * static block, this task will be executed at the time of class loading. In a class, any number of a static block
  * can be defined, and this static blocks will be executed from top to bottom.
  * */
+package Java_Basics;
 
 class a_static_blocks {
 

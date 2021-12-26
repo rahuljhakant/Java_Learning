@@ -3,6 +3,7 @@
  * Instead of remembering the complex address where we have stored our information, we name that address.
  * The naming of an address is known as variable. Variable is the name of memory location.
  * */
+package Java_Basics;
 
 public class c_variables {
 
