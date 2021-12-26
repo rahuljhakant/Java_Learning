@@ -12,6 +12,7 @@ package Java_Basics;
  * Narrowing (double>float>long>int>short>byte)
  *
  *  */
+
 public class d_type_Casting {
     public static void main(String[] args) {
         // Implicit type conversion
