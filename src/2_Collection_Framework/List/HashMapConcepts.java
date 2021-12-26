@@ -1,4 +1,4 @@
-package Collection_Frameworks_List;
+package List_Concepts.List;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
@@ -9,7 +9,7 @@ public class HashMapConcepts {
   public static void main(String[] args) {
     /* 
 		Hashmap is a class which implements map interface and Extends Abstractmap
-        Cointain only unique elements
+        Contain only unique elements
         Stores in Key value pair
         It may have one null key and multiple null values
         It maintains no order
@@ -47,7 +47,7 @@ public class HashMapConcepts {
     emp.put(2, e2);
     emp.put(3, e3);
 
-    // traverse the hasmap
+    // traverse the hashmap
     for (Entry<Integer, Employee> m : emp.entrySet()) {
       int key = m.getKey();
       Employee value = m.getValue();

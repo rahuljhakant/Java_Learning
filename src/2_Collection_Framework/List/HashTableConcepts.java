@@ -1,10 +1,10 @@
-package Collection_Frameworks_List;
+package List_Concepts.List;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Set;
 
-public class Hashtableconcepts {
+public class HashTableConcepts {
 
   @SuppressWarnings({ "rawtypes", "unchecked" })
   public static void main(String[] args) {

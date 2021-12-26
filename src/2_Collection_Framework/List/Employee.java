@@ -1,4 +1,4 @@
-package Collection_Frameworks_List;
+package List_Concepts.List;
 
 public class Employee {
 

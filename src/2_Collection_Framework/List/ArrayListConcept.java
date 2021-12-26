@@ -1,17 +1,16 @@
-package List_Concepts;
+package List_Concepts.List;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class ArrayListConcept {
 
   @SuppressWarnings({ "unchecked", "rawtypes" })
   public static <E> void main(String[] args) {
-    // dynamic array Array List
-    // 1. It can cointain duplicate values
-    // 2. It maintaines insertion order
+    // dynamic Array List
+    // 1. It can contain duplicate values
+    // 2. It maintains insertion order
     // 3. Synchronised
-    // 4. Randon access to fetch the element because it store the value based on index.
+    // 4. Random access to fetch the element because it stores the value based on index.
 
     ArrayList arrayList = new ArrayList();
 
@@ -62,9 +61,7 @@ public class ArrayListConcept {
     ar4.add(e3);
 
     // Iterator to traverse the values
-    Iterator<Employee> iterator = ar4.iterator();
-    while (iterator.hasNext()) {
-      Employee emp = iterator.next();
+    for (Employee emp : ar4) {
       System.out.println(emp.name);
       System.out.println(emp.age);
       System.out.println(emp.department);
@@ -85,16 +82,16 @@ public class ArrayListConcept {
 
     System.out.println("***********************");
 
-    for (int i = 0; i < ar5.size(); i++) {
-      System.out.println(ar5.get(i));
+    for (String item : ar5) {
+      System.out.println(item);
     }
 
     System.out.println("***********************");
 
     // remove all
     ar5.removeAll(ar6);
-    for (int i = 0; i < ar5.size(); i++) {
-      System.out.println(ar5.get(i));
+    for (String value : ar5) {
+      System.out.println(value);
     }
 
     System.out.println("***********************");
@@ -113,8 +110,8 @@ public class ArrayListConcept {
 
     ar7.retainAll(ar8);
 
-    for (int i = 0; i < ar7.size(); i++) {
-      System.out.println(ar7.get(i));
+    for (String s : ar7) {
+      System.out.println(s);
     }
   }
 }

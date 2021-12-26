@@ -1,4 +1,4 @@
-package Collection_Frameworks_List;
+package List_Concepts.List;
 
 import java.util.Iterator;
 import java.util.LinkedList;

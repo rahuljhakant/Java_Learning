@@ -1,3 +1,5 @@
+package List_Concepts.List;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
@@ -53,8 +55,8 @@ public class array_list_iteration {
     System.out.println("******************");
 
     // using for loop with order of Index
-    for (int i = 0; i < tvSeries.size(); i++) {
-      System.out.println(tvSeries.get(i));
+    for (String tvSery : tvSeries) {
+      System.out.println(tvSery);
     }
 
     System.out.println("******************");
