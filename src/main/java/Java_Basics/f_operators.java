@@ -1,8 +1,16 @@
 package Java_Basics;
 
+import com.sun.tools.javac.Main;
+
 import java.time.LocalDateTime;
 
 public class f_operators {
+
+    /*
+     * Function with parameters having dynamic data type and also object array with dynamic data type as values.
+     *
+     * */
+
     public static void main(String args[]) {
         f_operators f_operators = new f_operators();
         Object[] mixedArray = new Object[5];
@@ -16,6 +24,12 @@ public class f_operators {
             f_operators.fun(c);
         }
 
+        // ternary operator or conditional operator
+        int x = 100;
+        int p = 90;
+        int c;
+        c = x >= p ? 40 : 30;
+        System.out.println(c + " : is the ternary operator result.");
     }
 
     public void fun(Object a) {
