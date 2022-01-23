@@ -7,11 +7,10 @@ public class StringObject {
 
         String t = "typo";
 
-        System.out.println(s instanceof String);
-        System.out.println(t instanceof String);
-        System.out.println(s.startsWith("H"));
-        System.out.println(t.startsWith("t"));
-        
+        for (boolean b1 : new boolean[]{s instanceof String, t instanceof String, s.startsWith("H"), t.startsWith("t")}) {
+            System.out.println(b1);
+        }
+
         // This shows how efficient is java memory management.
         String a = "studytonight";
         String b = "thginotyduts";
