@@ -8,21 +8,19 @@
 package Java_Basics;
 
 class a_static_blocks {
+  static {
+    System.out.println("This will get executed before main 1");
+  }
 
-    static {
-        System.out.println("This will get executed before main 1");
-    }
+  static {
+    System.out.println("This will get executed before main 2");
+  }
 
-    static {
-        System.out.println("This will get executed before main 2");
-    }
+  public static void main(String[] args) {
+    System.out.println("This will get executed after static block");
+  }
 
-    public static void main(String[] args) {
-        System.out.println("This will get executed after static block");
-    }
-
-    static {
-        System.out.println("This will get executed before main 3");
-    }
-
+  static {
+    System.out.println("This will get executed before main 3");
+  }
 }

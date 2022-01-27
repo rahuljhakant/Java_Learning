@@ -8,50 +8,48 @@ package OOPS;
  * */
 
 interface i_interfaces {
-    int happy();
+  int happy();
 
-    void move();
+  void move();
 
-    int a = 30;
+  int a = 30;
 }
 
 interface j_interface {
-    int a = 10;
+  int a = 10;
 }
 
 interface k_interface {
-    int a = 20;
+  int a = 20;
 }
 
 interface l_interface extends j_interface, k_interface, i_interfaces {
-    @Override
-    int happy();
+  @Override
+  int happy();
 
-    @Override
-    void move();
+  @Override
+  void move();
 
-    int c = i_interfaces.a;
+  int c = i_interfaces.a;
 }
 
 abstract class WillTakeInterface implements i_interfaces, l_interface {
-    @Override
-    public int happy() {
-        return 0;
-    }
 
-    @Override
-    public void move() {
+  @Override
+  public int happy() {
+    return 0;
+  }
 
-    }
+  @Override
+  public void move() {}
 
-    int p = c;
+  int p = c;
 }
 
 class i_interface extends WillTakeInterface {
-    @Override
-    public int happy() {
-        return super.happy();
-    }
+
+  @Override
+  public int happy() {
+    return super.happy();
+  }
 }
-
-

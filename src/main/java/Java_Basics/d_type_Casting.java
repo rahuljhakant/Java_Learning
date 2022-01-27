@@ -14,20 +14,21 @@ package Java_Basics;
  *  */
 
 public class d_type_Casting {
-    public static void main(String[] args) {
-        // Implicit type conversion
-        int a = 10;
-        double b = a;
 
-        byte c = 20;
-        double d = c;
+  public static void main(String[] args) {
+    // Implicit type conversion
+    int a = 10;
+    double b = a;
 
-        System.out.println(b);
-        System.out.println(d);
+    byte c = 20;
+    double d = c;
 
-        // Explicit type conversion
-        double e = 30.0;
-        byte f = (byte) e;
-        System.out.println(f);
-    }
+    System.out.println(b);
+    System.out.println(d);
+
+    // Explicit type conversion
+    double e = 30.0;
+    byte f = (byte) e;
+    System.out.println(f);
+  }
 }

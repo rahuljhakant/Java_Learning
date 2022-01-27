@@ -1,4 +1,5 @@
 package OOPS;
+
 /*  A class can have only public or default(no modifier) access specifier.
  *  It can be either abstract, final or concrete (normal class).
  *  It must have the class keyword, and class must be followed by a legal identifier.
@@ -7,7 +8,6 @@ package OOPS;
  * */
 
 public class a_rules_for_defining_class {
-    public static void main(String[] args) {
 
-    }
+  public static void main(String[] args) {}
 }

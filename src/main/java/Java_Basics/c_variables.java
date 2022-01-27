@@ -7,54 +7,57 @@ package Java_Basics;
 
 public class c_variables {
 
-    /*
+  /*
     > static variable are also known as class variable.
     > static means to remain constant.
     > In Java, it means that it will be constant for all the instances created for that class.
     > static variable need not be called from object.
     > It is called by classname.static_variable_name
     */
-    public static int a = 10; // static variables
+  public static int a = 10; // static variables
 
+  String name = ""; // instance variable
 
-    String name = ""; // instance variable
+  public String abc() {
+    /*
+     * Local variables are declared in method, constructor or block.
+     * Local variables are initialized when method, constructor or block
+     * start and will be destroyed once its end.
+     * Local variable reside in stack.
+     * Access modifiers are not used for local variable.
+     * */
+    int c = 20; // local variables
+    return "";
+  }
 
-    public String abc() {
-        /*
-         * Local variables are declared in method, constructor or block.
-         * Local variables are initialized when method, constructor or block
-         * start and will be destroyed once its end.
-         * Local variable reside in stack.
-         * Access modifiers are not used for local variable.
-         * */
-        int c = 20; // local variables
-        return "";
+  public static void main(String[] args) {
+    // This is an enum data type
+    enum vowels {
+      a,
+      e,
+      i,
+      o,
+      u,
     }
 
-
-    public static void main(String[] args) {
-
-        // This is an enum data type
-        enum vowels {a, e, i, o, u}
-
-        for (vowels v : vowels.values()) {
-            switch (v) {
-                case a:
-                    System.out.println("a is a vowel.");
-                    break;
-                case e:
-                    System.out.println("e is a vowel.");
-                    break;
-                case i:
-                    System.out.println("i is a vowel.");
-                    break;
-                case o:
-                    System.out.println("o is a vowel.");
-                    break;
-                case u:
-                    System.out.println("u is a vowel.");
-                    break;
-            }
-        }
+    for (vowels v : vowels.values()) {
+      switch (v) {
+        case a:
+          System.out.println("a is a vowel.");
+          break;
+        case e:
+          System.out.println("e is a vowel.");
+          break;
+        case i:
+          System.out.println("i is a vowel.");
+          break;
+        case o:
+          System.out.println("o is a vowel.");
+          break;
+        case u:
+          System.out.println("u is a vowel.");
+          break;
+      }
     }
+  }
 }

@@ -13,29 +13,28 @@
 package Java_Basics;
 
 public class b_Initializer_Block {
+  {
+    System.out.println("This is an Initializer Block 1");
+  }
 
-    {
-        System.out.println("This is an Initializer Block 1");
-    }
+  {
+    System.out.println("This is an Initializer Block 2");
+  }
 
-    {
-        System.out.println("This is an Initializer Block 2");
-    }
+  static {
+    System.out.println("This will get executed before main 1");
+  }
 
-    static {
-        System.out.println("This will get executed before main 1");
-    }
+  static {
+    System.out.println("This will get executed before main 2");
+  }
 
-    static {
-        System.out.println("This will get executed before main 2");
-    }
+  public b_Initializer_Block() {
+    System.out.println("This is the constructor.");
+  }
 
-    public b_Initializer_Block() {
-        System.out.println("This is the constructor.");
-    }
-
-    public static void main(String[] args) {
-        b_Initializer_Block b_initializer_block = new b_Initializer_Block();
-        System.out.println("This is main method.");
-    }
+  public static void main(String[] args) {
+    b_Initializer_Block b_initializer_block = new b_Initializer_Block();
+    System.out.println("This is main method.");
+  }
 }
