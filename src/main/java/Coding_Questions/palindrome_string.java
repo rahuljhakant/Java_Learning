@@ -1,9 +1,8 @@
 package Coding_Questions;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class palindrome {
+public class palindrome_string {
     public static void main(String[] args) {
         String palindrome_word = "malayalam";
         char[] ch1 = palindrome_word.toCharArray();
