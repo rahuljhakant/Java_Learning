@@ -8,8 +8,19 @@
     <artifactId>java-learning-tutorial</artifactId>
     <version>1.0.0</version>
     
-    <name>Java Learning Tutorial</name>
-    <description>A comprehensive Java learning tutorial repository by [Your Name]</description>
+    <name>Complete Java Tutorial Repository - Learn Java Programming from Beginner to Expert</name>
+    <description>The most comprehensive Java learning resource on GitHub - Master Java programming from absolute beginner to expert level with hands-on tutorials, real-world projects, and modern Java features (Java 9-17). Includes OOP, Data Structures, Algorithms, Testing, Security, Performance, Virtual Threads, and Foreign Function API.</description>
+    <url>https://github.com/yourusername/java-tutorial-repository</url>
+    
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.9.2</junit.version>
+        <mockito.version>4.11.0</mockito.version>
+        <checkstyle.version>10.12.0</checkstyle.version>
+        <spotbugs.version>4.7.3</spotbugs.version>
+    </properties>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
