@@ -4,9 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupId</groupId>
-    <artifactId>Java_collections</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.example</groupId>
+    <artifactId>java-learning-tutorial</artifactId>
+    <version>1.0.0</version>
+    
+    <name>Java Learning Tutorial</name>
+    <description>A comprehensive Java learning tutorial repository by [Your Name]</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -9,7 +9,9 @@ public class NumberPalindrome implements Util {
         String str = String.valueOf(a);
         char[] chars = str.toCharArray();
         char[] revChar = new char[chars.length];
-        System.arraycopy(chars, 0, revChar, 0, chars.length - 1 + 1);
+        for (int i = 0; i < chars.length; i++) {
+            revChar[i] = chars[chars.length - 1 - i];
+        }
         logger.log(Level.INFO, String.valueOf(Arrays.equals(chars, revChar)), "Checking if integer number is palindrome or not.");
     }
 }
