@@ -24,7 +24,7 @@
  * 6. Best Practices: When to use var vs explicit types
  * 7. Limitations: Where var cannot be used
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

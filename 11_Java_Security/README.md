@@ -71,7 +71,7 @@ This comprehensive section covers Java security concepts, best practices, and im
 
 ## Author
 
-**Created by: [Your Name]**
+**Created by: Rahul Kant Jha**
 - Comprehensive Java Security Tutorial
 - Industry-standard security practices and techniques
 - Real-world security implementation examples

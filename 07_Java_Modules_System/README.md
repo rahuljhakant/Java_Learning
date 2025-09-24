@@ -55,7 +55,7 @@ This comprehensive section covers the Java Modules System (Project Jigsaw) intro
 
 ## Author
 
-**Created by: [Your Name]**
+**Created by: Rahul Kant Jha**
 - Comprehensive Java Modules System Tutorial
 - Industry-standard implementations with detailed explanations
 - Real-world applications and best practices

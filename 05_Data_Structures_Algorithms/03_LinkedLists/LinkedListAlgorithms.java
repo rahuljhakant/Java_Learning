@@ -26,7 +26,7 @@ package com.tutorial.datastructures.linkedlists;
  * 6. List Merging: Combining two sorted linked lists
  * 7. List Intersection: Finding common elements in lists
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

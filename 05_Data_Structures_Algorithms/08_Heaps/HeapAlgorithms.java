@@ -26,7 +26,7 @@ package com.tutorial.datastructures.heaps;
  * 6. Top K Problems: Finding K largest/smallest elements efficiently
  * 7. Median Maintenance: Using two heaps for dynamic median
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

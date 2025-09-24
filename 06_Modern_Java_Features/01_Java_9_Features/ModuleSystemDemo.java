@@ -23,7 +23,7 @@
  * 6. Migration: Converting existing applications to modules
  * 7. Performance: Improved startup time and memory usage
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

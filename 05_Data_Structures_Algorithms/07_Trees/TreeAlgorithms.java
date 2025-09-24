@@ -26,7 +26,7 @@ package com.tutorial.datastructures.trees;
  * 6. Balanced Trees: AVL trees and rotation operations
  * 7. Tree Construction: Building trees from traversals
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

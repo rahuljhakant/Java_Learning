@@ -25,7 +25,7 @@
  * 7. HTTP/2 Support: Modern protocol with multiplexing
  * 8. Authentication: Basic, Digest, and custom authentication
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

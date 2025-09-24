@@ -26,7 +26,7 @@ package com.tutorial.datastructures.hashing;
  * 6. Grouping: Organizing data by common characteristics
  * 7. Caching: Using hash tables for fast lookups
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

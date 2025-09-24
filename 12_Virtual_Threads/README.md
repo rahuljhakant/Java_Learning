@@ -65,7 +65,7 @@ This comprehensive section covers Virtual Threads, a revolutionary concurrency f
 
 ## Author
 
-**Created by: [Your Name]**
+**Created by: Rahul Kant Jha**
 - Comprehensive Virtual Threads Tutorial
 - Industry-standard concurrency patterns and practices
 - Real-world virtual thread applications and examples

@@ -7,7 +7,7 @@
 
 package Java_Basics;
 
-class a_static_blocks {
+public class a_static_blocks {
   static {
     System.out.println("This will get executed before main 1");
   }

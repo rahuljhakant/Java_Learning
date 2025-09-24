@@ -26,7 +26,7 @@ package com.tutorial.datastructures.stack;
  * 6. Stack-based DFS: Depth-first search using stack
  * 7. Memory Management: Stack frames and call stack
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

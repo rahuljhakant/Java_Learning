@@ -24,7 +24,7 @@
  * 7. Plugins: Installing and managing Eclipse plugins
  * 8. Productivity: Tips and tricks for efficient development
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

@@ -25,7 +25,7 @@
  * 7. Memory Safety: Safe memory access and lifecycle management
  * 8. Performance: Optimizing native code integration
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

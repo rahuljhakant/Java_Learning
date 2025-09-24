@@ -27,7 +27,7 @@ package com.tutorial.intermediate.collections;
  * 7. Consistency: Ensuring consistent ordering
  * 8. Best Practices: Guidelines for proper implementation
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

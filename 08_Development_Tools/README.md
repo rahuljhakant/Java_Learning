@@ -57,7 +57,7 @@ This comprehensive section covers the essential development tools and IDE integr
 
 ## Author
 
-**Created by: [Your Name]**
+**Created by: Rahul Kant Jha**
 - Comprehensive Development Tools Tutorial
 - Industry-standard IDE setup and configuration
 - Real-world development workflows and best practices

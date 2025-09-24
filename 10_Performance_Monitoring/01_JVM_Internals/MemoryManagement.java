@@ -25,7 +25,7 @@
  * 7. Memory Tuning: JVM parameters for memory optimization
  * 8. Memory Monitoring: Tools for memory analysis
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

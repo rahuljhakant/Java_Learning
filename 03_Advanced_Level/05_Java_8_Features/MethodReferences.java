@@ -27,7 +27,7 @@ package com.tutorial.advanced.java8;
  * 7. Best Practices: Guidelines for effective method reference usage
  * 8. Performance: Understanding method reference performance
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

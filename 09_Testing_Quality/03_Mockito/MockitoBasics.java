@@ -24,7 +24,7 @@
  * 7. Mock Annotations: @Mock, @Spy, @InjectMocks
  * 8. Best Practices: When and how to use mocks effectively
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

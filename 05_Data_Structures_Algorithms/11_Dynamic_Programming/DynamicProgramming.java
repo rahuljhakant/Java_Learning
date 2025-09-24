@@ -25,7 +25,7 @@ package com.tutorial.datastructures.dynamicprogramming;
  * 6. Base Cases: Initial conditions for the problem
  * 7. Space Optimization: Reducing space complexity
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

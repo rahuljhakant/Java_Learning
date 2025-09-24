@@ -26,7 +26,7 @@ package com.tutorial.datastructures.queue;
  * 6. Sliding Window: Efficient subarray processing
  * 7. LRU Cache: Least Recently Used cache implementation
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

@@ -8,7 +8,11 @@ public abstract class h_abstract_class {
     return "";
   }
 
-  public String hello = "hello";
+  private String hello = "hello";
+  
+  public String getHello() {
+    return hello;
+  }
 }
 
 abstract class child extends h_abstract_class {
@@ -18,7 +22,7 @@ abstract class child extends h_abstract_class {
     return "null";
   }
 
-  String p = this.hello;
+  String p = this.getHello();
 
   @Override
   public String hello() {

@@ -25,7 +25,7 @@ package com.tutorial.datastructures.advanced;
  * 6. Sparse Table: Range minimum/maximum queries
  * 7. Advanced Trees: B-Tree, Red-Black Tree concepts
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

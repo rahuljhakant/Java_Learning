@@ -76,7 +76,7 @@ This comprehensive section covers testing frameworks, quality assurance tools, a
 
 ## Author
 
-**Created by: [Your Name]**
+**Created by: Rahul Kant Jha**
 - Comprehensive Testing & Quality Assurance Tutorial
 - Industry-standard testing frameworks and tools
 - Real-world testing strategies and best practices

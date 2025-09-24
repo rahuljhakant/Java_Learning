@@ -27,7 +27,7 @@ package com.tutorial.advanced.networking;
  * 7. Error Handling: Network exception handling
  * 8. Security: Network security considerations
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

@@ -25,7 +25,7 @@
  * 7. Dynamic Tests: Runtime test generation
  * 8. Test Interfaces: Reusable test behavior
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

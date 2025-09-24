@@ -1,19 +1,30 @@
 package OOPS;
 
-final class b_constructors {
+public class b_constructors {
 
   // Constructor Chaining
-  private b_constructors() {}
-
-  private b_constructors(int a) {
-    this();
+  public b_constructors() {
+    System.out.println("Default constructor called");
   }
 
-  private b_constructors(String c) {
+  public b_constructors(int a) {
+    this();
+    System.out.println("Constructor with int parameter: " + a);
+  }
+
+  public b_constructors(String c) {
     this(10);
+    System.out.println("Constructor with String parameter: " + c);
   }
 
   public static void main(String[] args) {
-    b_constructors b_constructors = new b_constructors(10);
+    System.out.println("=== Constructor Chaining Demo ===");
+    b_constructors obj1 = new b_constructors();
+    System.out.println();
+    
+    b_constructors obj2 = new b_constructors(42);
+    System.out.println();
+    
+    b_constructors obj3 = new b_constructors("Hello");
   }
 }

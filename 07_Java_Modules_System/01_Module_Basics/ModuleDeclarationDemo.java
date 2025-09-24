@@ -24,7 +24,7 @@
  * 6. Module Path: How Java finds and loads modules
  * 7. Migration: Converting existing applications to modules
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

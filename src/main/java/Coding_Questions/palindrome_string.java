@@ -1,7 +1,7 @@
 package Coding_Questions;
 
 public class palindrome_string {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         String palindrome_word = "malayalam";
         boolean isPalindrome = true;
         

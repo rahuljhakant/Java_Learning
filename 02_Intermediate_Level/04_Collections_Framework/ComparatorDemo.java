@@ -27,7 +27,7 @@ package com.tutorial.intermediate.collections;
  * 7. Null Handling: Dealing with null values in comparisons
  * 8. Performance: Considerations for comparator performance
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

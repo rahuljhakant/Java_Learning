@@ -3,8 +3,8 @@
 [![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
 [![Maven](https://img.shields.io/badge/Maven-3.6+-blue.svg)](https://maven.apache.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/yourusername/java-tutorial-repository.svg)](https://github.com/yourusername/java-tutorial-repository/stargazers)
-[![Forks](https://img.shields.io/badge/Forks-100+-brightgreen.svg)](https://github.com/yourusername/java-tutorial-repository/network)
+[![Stars](https://img.shields.io/github/stars/rahulkantjha/java-tutorial-repository.svg)](https://github.com/rahulkantjha/java-tutorial-repository/stargazers)
+[![Forks](https://img.shields.io/badge/Forks-100+-brightgreen.svg)](https://github.com/rahulkantjha/java-tutorial-repository/network)
 
 > **The most comprehensive Java learning resource on GitHub** - Master Java programming from absolute beginner to expert level with hands-on tutorials, real-world projects, and modern Java features (Java 9-17).
 
@@ -195,9 +195,9 @@ By the end of this tutorial, you will be able to:
 
 ## 📊 Repository Statistics
 
-![Repository Stats](https://github-readme-stats.vercel.app/api?username=yourusername&repo=java-tutorial-repository&show_icons=true&theme=radical)
+![Repository Stats](https://github-readme-stats.vercel.app/api?username=rahulkantjha&repo=java-tutorial-repository&show_icons=true&theme=radical)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&repo=java-tutorial-repository&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rahulkantjha&repo=java-tutorial-repository&layout=compact&theme=radical)
 
 ## 🏆 What You'll Learn
 
@@ -239,7 +239,7 @@ By the end of this tutorial, you will be able to:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/java-tutorial-repository.git
+   git clone https://github.com/rahulkantjha/java-tutorial-repository.git
    cd java-tutorial-repository
    ```
 
@@ -380,11 +380,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Java developer community
 - All contributors to this repository
 
-## 📞 Support
+## 📞 Support & Contact
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/java-tutorial-repository/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/java-tutorial-repository/discussions)
-- **Email**: your.email@example.com
+### Repository Support
+- **Issues**: [GitHub Issues](https://github.com/rahulkantjha/java-tutorial-repository/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/rahulkantjha/java-tutorial-repository/discussions)
+- **Pull Requests**: [GitHub Pull Requests](https://github.com/rahulkantjha/java-tutorial-repository/pulls)
+
+### Author Contact
+- **Name**: Rahul Kant Jha
+- **Email**: [rahulkantjha@hotmail.com](mailto:rahulkantjha@hotmail.com)
+- **Phone**: +91-8800150411
+- **GitHub**: [@rahulkantjha](https://github.com/rahulkantjha)
+
+### Learning Support
+- **Java Questions**: Feel free to open an issue for any Java-related questions
+- **Tutorial Requests**: Suggest new tutorials or improvements
+- **Code Reviews**: Get feedback on your Java code
+- **Career Guidance**: Java career advice and interview preparation
 
 ## 🔗 Related Resources
 
@@ -400,11 +413,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repository if you found it helpful!**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/java-tutorial-repository.svg?style=social&label=Star)](https://github.com/yourusername/java-tutorial-repository)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/java-tutorial-repository.svg?style=social&label=Fork)](https://github.com/yourusername/java-tutorial-repository/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/java-tutorial-repository.svg?style=social&label=Watch)](https://github.com/yourusername/java-tutorial-repository)
+[![GitHub stars](https://img.shields.io/github/stars/rahulkantjha/java-tutorial-repository.svg?style=social&label=Star)](https://github.com/rahulkantjha/java-tutorial-repository)
+[![GitHub forks](https://img.shields.io/github/forks/rahulkantjha/java-tutorial-repository.svg?style=social&label=Fork)](https://github.com/rahulkantjha/java-tutorial-repository/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/rahulkantjha/java-tutorial-repository.svg?style=social&label=Watch)](https://github.com/rahulkantjha/java-tutorial-repository)
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Rahul Kant Jha**
 
 </div>
 

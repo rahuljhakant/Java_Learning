@@ -25,7 +25,7 @@ package com.tutorial.datastructures.strings;
  * 6. Rolling Hash: Efficient hash computation for substrings
  * 7. Suffix Arrays: Advanced string data structures
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

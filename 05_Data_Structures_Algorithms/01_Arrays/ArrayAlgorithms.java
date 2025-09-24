@@ -25,7 +25,7 @@ package com.tutorial.datastructures.arrays;
  * 6. Prefix Sum: Preprocessing for range sum queries
  * 7. Kadane's Algorithm: Maximum subarray sum in O(n)
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

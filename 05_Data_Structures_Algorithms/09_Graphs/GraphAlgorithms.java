@@ -26,7 +26,7 @@ package com.tutorial.datastructures.graphs;
  * 6. Cycle Detection: Detecting cycles in directed/undirected graphs
  * 7. Connected Components: Finding connected components
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

@@ -25,7 +25,7 @@
  * 7. Error Handling: Understanding JShell error messages
  * 8. Session Persistence: Saving and loading JShell sessions
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

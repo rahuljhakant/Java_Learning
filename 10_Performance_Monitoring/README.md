@@ -57,7 +57,7 @@ This comprehensive section covers Java performance optimization, monitoring tech
 
 ## Author
 
-**Created by: [Your Name]**
+**Created by: Rahul Kant Jha**
 - Comprehensive Performance & Monitoring Tutorial
 - Industry-standard profiling and monitoring tools
 - Real-world performance optimization techniques

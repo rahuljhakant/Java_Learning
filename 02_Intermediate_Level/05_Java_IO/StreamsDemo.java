@@ -27,7 +27,7 @@ package com.tutorial.intermediate.io;
  * 7. Resource Management: Try-with-resources for automatic cleanup
  * 8. Performance: Optimizing stream operations
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

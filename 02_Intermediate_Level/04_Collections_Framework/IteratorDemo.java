@@ -25,7 +25,7 @@ package com.tutorial.intermediate.collections;
  * 6. Concurrent Modification: Issues with modifying collections during iteration
  * 7. Iterator vs For Loop: When to use each approach
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

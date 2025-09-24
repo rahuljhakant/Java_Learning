@@ -30,15 +30,16 @@ public class c_variables {
     return "";
   }
 
+  // This is an enum data type
+  enum vowels {
+    a,
+    e,
+    i,
+    o,
+    u,
+  }
+
   public static void main(String[] args) {
-    // This is an enum data type
-    enum vowels {
-      a,
-      e,
-      i,
-      o,
-      u,
-    }
 
     for (vowels v : vowels.values()) {
       switch (v) {

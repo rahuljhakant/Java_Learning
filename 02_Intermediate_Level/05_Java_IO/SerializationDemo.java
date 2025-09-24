@@ -27,7 +27,7 @@ package com.tutorial.intermediate.io;
  * 7. Externalizable Interface: Custom serialization control
  * 8. Security: Serialization security considerations
  * 
- * @author [Your Name]
+ * @author Rahul Kant Jha
  * @version 1.0
  * @since 2024
  */

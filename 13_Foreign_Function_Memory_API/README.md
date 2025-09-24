@@ -65,7 +65,7 @@ This comprehensive section covers the Foreign Function and Memory API (FFM API),
 
 ## Author
 
-**Created by: [Your Name]**
+**Created by: Rahul Kant Jha**
 - Comprehensive Foreign Function and Memory API Tutorial
 - Industry-standard native code integration practices
 - Real-world FFM API applications and examples

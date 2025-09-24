@@ -50,7 +50,7 @@ This comprehensive section covers the evolution of Java from version 9 to 17, in
 
 ## Author
 
-**Created by: [Your Name]**
+**Created by: Rahul Kant Jha**
 - Comprehensive Modern Java Features Tutorial
 - Industry-standard implementations with detailed explanations
 - Real-world applications and best practices
