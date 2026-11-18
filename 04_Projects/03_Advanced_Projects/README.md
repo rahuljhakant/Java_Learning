@@ -55,11 +55,11 @@ By completing these projects, you will:
 - Understanding of JSON and HTTP
 - Experience with intermediate projects
 
-### Running the Projects
-1. Navigate to the project directory
-2. Ensure Spring Boot dependencies are available
-3. Run the application: `mvn spring-boot:run`
-4. Access the API endpoints via HTTP client
+### Running the examples
+
+The Spring Boot source folder is illustrative and does not include its own
+Maven project or application entry point. For an executable HTTP/JSON API and
+instructions, use [Backend Development](../../14_Backend_Development/).
 
 ## 📝 Project Structure
 
@@ -72,7 +72,7 @@ RESTfulAPISpringBoot/
 ├── UserStatistics.java     # Statistics DTO
 ├── PaginatedResponse.java  # Pagination wrapper
 ├── StatusUpdate.java       # Update DTO
-└── README.md              # Project documentation
+└── README.md              # Notes and link to runnable API lesson
 ```
 
 ### API Endpoints

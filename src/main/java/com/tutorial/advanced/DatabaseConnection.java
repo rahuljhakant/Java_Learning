@@ -65,9 +65,10 @@ public class DatabaseConnection {
             System.out.println("✓ MySQL JDBC Driver loaded successfully");
             
             // Establish connection
-            String url = "jdbc:mysql://localhost:3306/javatutorial";
-            String username = "root";
-            String password = "password";
+            String url = System.getenv().getOrDefault(
+                    "DB_URL", "jdbc:mysql://localhost:3306/javatutorial");
+            String username = System.getenv().getOrDefault("DB_USER", "");
+            String password = System.getenv().getOrDefault("DB_PASSWORD", "");
             
             connection = DriverManager.getConnection(url, username, password);
             System.out.println("✓ Database connection established");
@@ -111,15 +112,15 @@ public class DatabaseConnection {
             
             // Create connection properties
             Properties props = new Properties();
-            props.setProperty("user", "root");
-            props.setProperty("password", "password");
-            props.setProperty("useSSL", "false");
+            props.setProperty("user", System.getenv().getOrDefault("DB_USER", ""));
+            props.setProperty("password", System.getenv().getOrDefault("DB_PASSWORD", ""));
             props.setProperty("serverTimezone", "UTC");
             props.setProperty("autoReconnect", "true");
             props.setProperty("maxReconnects", "3");
             
             // Establish connection with properties
-            String url = "jdbc:mysql://localhost:3306/javatutorial";
+            String url = System.getenv().getOrDefault(
+                    "DB_URL", "jdbc:mysql://localhost:3306/javatutorial");
             connection = DriverManager.getConnection(url, props);
             System.out.println("✓ Database connection established with properties");
             
@@ -196,7 +197,10 @@ public class DatabaseConnection {
         // Database not found
         try {
             String url = "jdbc:mysql://localhost:3306/nonexistent";
-            Connection connection = DriverManager.getConnection(url, "root", "password");
+            Connection connection = DriverManager.getConnection(
+                    url,
+                    System.getenv().getOrDefault("DB_USER", ""),
+                    System.getenv().getOrDefault("DB_PASSWORD", ""));
         } catch (SQLException e) {
             System.out.println("Database not found handled: " + e.getMessage());
         }

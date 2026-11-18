@@ -1,5 +1,11 @@
 # 🗄️ JDBC & Database Connectivity - Java Database Programming
 
+The JDBC examples read connection values from `DB_URL`, `DB_USER`, and
+`DB_PASSWORD`. Set those variables for a local database; do not commit real
+credentials. Production applications should use a secret manager, TLS with
+certificate verification, least-privilege database accounts, and a connection
+pool rather than `DriverManager`.
+
 This section covers Java Database Connectivity (JDBC), database operations, and best practices for working with databases in Java applications.
 
 ## 🎯 Learning Objectives

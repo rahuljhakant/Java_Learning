@@ -20,9 +20,9 @@ This comprehensive section covers Java security concepts, best practices, and im
 - **Session Management**: Secure session handling
 
 ### 🔹 3. Cryptography
-- **Symmetric Encryption**: AES, DES, and other algorithms
+- **Authenticated Encryption**: AES-GCM, nonce handling, and key management
 - **Asymmetric Encryption**: RSA, ECC, and key exchange
-- **Hashing**: SHA, MD5, and password hashing
+- **Hashing**: SHA-256 for integrity; adaptive password hashing with PBKDF2
 - **Digital Signatures**: Message authentication and integrity
 - **Key Management**: Secure key storage and rotation
 - **TLS/SSL**: Secure communication protocols
@@ -79,3 +79,8 @@ This comprehensive section covers Java security concepts, best practices, and im
 ---
 
 *This tutorial provides a complete guide to Java security, helping you build secure and robust applications.*
+
+> **Safety note:** the runnable examples avoid ECB, DES, plain SHA-256 password
+> storage, and embedded demo credentials. See
+> [Cryptography](02_Cryptography/README.md) for the safe algorithms and the
+> limits of these educational examples.

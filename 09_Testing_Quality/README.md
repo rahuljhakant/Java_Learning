@@ -2,6 +2,24 @@
 
 This comprehensive section covers testing frameworks, quality assurance tools, and best practices for Java development. Learn how to write effective tests, ensure code quality, and implement comprehensive testing strategies.
 
+## Build and CI checks
+
+Runnable Maven tests live under `src/test/java`. The Maven build deliberately
+compiles the maintained backend, persistence, and cryptography packages; the
+other packaged tutorial copies contain duplicate top-level types and are
+reading examples, not one compilable application. Run:
+
+```bash
+mvn clean verify
+mvn checkstyle:check spotbugs:check
+```
+
+JaCoCo writes XML and HTML reports under `target/site/jacoco/`. Checkstyle is
+currently applied to the maintained backend, persistence, and cryptography
+examples; SpotBugs analyzes compiled Maven application classes. The teaching
+tree contains legacy examples that are not yet in this quality gate, so expand
+the Checkstyle include list as those examples are modernized.
+
 ## Table of Contents
 
 ### 🔹 1. JUnit 5 Testing Framework

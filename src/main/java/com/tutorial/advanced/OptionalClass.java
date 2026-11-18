@@ -1,10 +1,10 @@
 package com.tutorial.advanced;
 
-import Optional;
+import java.util.Optional;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
-import Stream;
+import java.util.stream.Stream;
 
 /**
  * Optional Class Demo - Mastering Null Safety in Java 8+

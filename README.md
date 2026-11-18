@@ -37,6 +37,9 @@
 - **Networking**: Sockets, URL, HttpURLConnection, RMI basics
 - **GUI Programming**: AWT, Swing components, event handling
 - **JDBC**: Database connectivity, statements, transactions
+- **Backend Development**: HTTP/JSON APIs, request validation, API design, and distributed-systems concepts
+- **Persistence**: JPA/Hibernate, Flyway migrations, and integration testing
+- **Operations**: Linux service checks, Docker packaging, deployment, and monitoring
 - **Java 8+ Features**: Lambda expressions, Streams API, Optional class
 - **Advanced Concepts**: Generics, annotations, reflection, regular expressions
 - **Frameworks & Tools**: Maven/Gradle, JUnit, Spring Boot, Hibernate
@@ -55,6 +58,7 @@
 - **Security**: Java Security fundamentals, Cryptography, Secure Coding
 - **Virtual Threads**: Project Loom, Lightweight Concurrency
 - **Foreign Function API**: Project Panama, Native Code Integration
+- **Specializations**: Separate JavaFX desktop and Android learning workflows
 
 ## 📁 Repository Structure
 
@@ -75,7 +79,7 @@ Java_Tutorial/
 │   ├── 01_Multithreading_Concurrency/
 │   ├── 02_Networking/
 │   ├── 03_GUI_Programming/
-│   ├── 04_JDBC_Database_Connectivity/
+│   ├── 04_JDBC_Database/
 │   ├── 05_Java_8_Features/
 │   ├── 06_Advanced_Java_Concepts/
 │   └── 07_Frameworks_Tools/
@@ -277,7 +281,11 @@ By the end of this tutorial, you will be able to:
 - [Multithreading & Concurrency](03_Advanced_Level/01_Multithreading_Concurrency/)
 - [Networking](03_Advanced_Level/02_Networking/)
 - [GUI Programming](03_Advanced_Level/03_GUI_Programming/)
-- [JDBC Database Connectivity](03_Advanced_Level/04_JDBC_Database_Connectivity/)
+- [JDBC Database Connectivity](03_Advanced_Level/04_JDBC_Database/)
+- [Backend Development](14_Backend_Development/)
+- [Persistence: JPA, Hibernate, and Migrations](15_Persistence/)
+- [Operations: Linux, Docker, and Deployment](16_Operations/)
+- [JavaFX and Android Specializations](17_Specializations/)
 - [Java 8+ Features](03_Advanced_Level/05_Java_8_Features/)
 
 ### 🚀 Modern Java Features
@@ -296,6 +304,7 @@ By the end of this tutorial, you will be able to:
 - [JUnit 5](09_Testing_Quality/01_JUnit_5/)
 - [TestNG](09_Testing_Quality/02_TestNG/)
 - [Mockito](09_Testing_Quality/03_Mockito/)
+- [Coverage and static analysis](09_Testing_Quality/README.md#build-and-ci-checks)
 
 ### ⚡ Performance & Monitoring
 - [JVM Internals](10_Performance_Monitoring/01_JVM_Internals/)

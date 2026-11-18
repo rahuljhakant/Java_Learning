@@ -137,29 +137,22 @@ public class SecurityBasics {
     private static void demonstrateSymmetricEncryption() {
         System.out.println("\nSymmetric Encryption (AES):");
         try {
-            // Generate a secret key
-            KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
-            keyGenerator.init(256); // 256-bit key
-            SecretKey secretKey = keyGenerator.generateKey();
-            
-            // Create cipher for encryption
-            Cipher cipher = Cipher.getInstance("AES");
-            cipher.init(Cipher.ENCRYPT_MODE, secretKey);
-            
-            // Encrypt data
             String plaintext = "This is a secret message";
-            byte[] encryptedData = cipher.doFinal(plaintext.getBytes(StandardCharsets.UTF_8));
-            String encryptedBase64 = Base64.getEncoder().encodeToString(encryptedData);
-            
+            KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
+            keyGenerator.init(256);
+            SecretKey key = keyGenerator.generateKey();
+            byte[] nonce = new byte[12];
+            new SecureRandom().nextBytes(nonce);
+            GCMParameterSpec parameters = new GCMParameterSpec(128, nonce);
+            Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+            cipher.init(Cipher.ENCRYPT_MODE, key, parameters);
+            byte[] ciphertext = cipher.doFinal(plaintext.getBytes(StandardCharsets.UTF_8));
             System.out.println("Original: " + plaintext);
-            System.out.println("Encrypted: " + encryptedBase64);
-            
-            // Decrypt data
-            cipher.init(Cipher.DECRYPT_MODE, secretKey);
-            byte[] decryptedData = cipher.doFinal(Base64.getDecoder().decode(encryptedBase64));
-            String decryptedText = new String(decryptedData, StandardCharsets.UTF_8);
-            
-            System.out.println("Decrypted: " + decryptedText);
+            System.out.println("Authenticated ciphertext: "
+                    + Base64.getEncoder().encodeToString(ciphertext));
+            cipher.init(Cipher.DECRYPT_MODE, key, parameters);
+            System.out.println("Decrypted: "
+                    + new String(cipher.doFinal(ciphertext), StandardCharsets.UTF_8));
             
         } catch (Exception e) {
             System.err.println("Encryption error: " + e.getMessage());
@@ -180,14 +173,8 @@ public class SecurityBasics {
             System.out.println("Input: " + input);
             System.out.println("SHA-256 Hash: " + hashHex);
             
-            // Demonstrate password hashing with salt
-            String password = "mypassword";
-            String salt = generateSalt();
-            String hashedPassword = hashPassword(password, salt);
-            
-            System.out.println("Password: " + password);
-            System.out.println("Salt: " + salt);
-            System.out.println("Hashed Password: " + hashedPassword);
+            System.out.println("SHA-256 is for integrity, not password storage.");
+            System.out.println("Use SecureCrypto's salted PBKDF2 example for password storage.");
             
         } catch (Exception e) {
             System.err.println("Hashing error: " + e.getMessage());
@@ -249,23 +236,9 @@ public class SecurityBasics {
         System.out.println("• Discretionary Access Control (DAC)");
         System.out.println("• Mandatory Access Control (MAC)");
         
-        // Demonstrate simple authentication
-        System.out.println("\nSimple Authentication Example:");
-        String username = "admin";
-        String password = "password123";
-        
-        if (authenticateUser(username, password)) {
-            System.out.println("Authentication successful for user: " + username);
-            
-            // Check authorization
-            if (isAuthorized(username, "admin")) {
-                System.out.println("User " + username + " is authorized for admin operations");
-            } else {
-                System.out.println("User " + username + " is not authorized for admin operations");
-            }
-        } else {
-            System.out.println("Authentication failed for user: " + username);
-        }
+        System.out.println("\nAuthentication and authorization example:");
+        System.out.println("Authenticate with a maintained identity provider; authorize each action by role.");
+        System.out.println("This demo has no users or embedded credentials.");
         
         System.out.println();
     }
@@ -408,46 +381,6 @@ public class SecurityBasics {
             result.append(String.format("%02x", b));
         }
         return result.toString();
-    }
-    
-    /**
-     * Generates a random salt for password hashing
-     */
-    private static String generateSalt() {
-        SecureRandom random = new SecureRandom();
-        byte[] salt = new byte[16];
-        random.nextBytes(salt);
-        return Base64.getEncoder().encodeToString(salt);
-    }
-    
-    /**
-     * Hashes a password with salt
-     */
-    private static String hashPassword(String password, String salt) {
-        try {
-            MessageDigest digest = MessageDigest.getInstance("SHA-256");
-            digest.update(Base64.getDecoder().decode(salt));
-            byte[] hash = digest.digest(password.getBytes(StandardCharsets.UTF_8));
-            return Base64.getEncoder().encodeToString(hash);
-        } catch (Exception e) {
-            throw new RuntimeException("Password hashing failed", e);
-        }
-    }
-    
-    /**
-     * Simple authentication method
-     */
-    private static boolean authenticateUser(String username, String password) {
-        // In real applications, this would check against a secure database
-        return "admin".equals(username) && "password123".equals(password);
-    }
-    
-    /**
-     * Simple authorization check
-     */
-    private static boolean isAuthorized(String username, String role) {
-        // In real applications, this would check user roles and permissions
-        return "admin".equals(username) && "admin".equals(role);
     }
     
     /**
