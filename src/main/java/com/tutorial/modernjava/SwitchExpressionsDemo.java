@@ -205,25 +205,27 @@ public class SwitchExpressionsDemo {
     }
     
     /**
-     * Demonstrates switch expressions with pattern matching
+     * Demonstrates pattern matching with instanceof available in Java 17.
      */
     private static void demonstratePatternMatching() {
-        System.out.println("6. Switch with Pattern Matching:");
+        System.out.println("6. Pattern Matching with instanceof:");
         System.out.println("===============================");
         
         Object obj = "Hello World";
-        
-        String result = switch (obj) {
-            case String s when s.length() > 10 -> "Long string: " + s;
-            case String s when s.length() > 5 -> "Medium string: " + s;
-            case String s -> "Short string: " + s;
-            case Integer i when i > 100 -> "Large number: " + i;
-            case Integer i -> "Small number: " + i;
-            case Double d -> "Double value: " + d;
-            case null -> "Null value";
-            default -> "Unknown type: " + obj.getClass().getSimpleName();
-        };
-        
+        String result;
+        if (obj instanceof String text) {
+            result = text.length() > 10 ? "Long string: " + text
+                    : text.length() > 5 ? "Medium string: " + text : "Short string: " + text;
+        } else if (obj instanceof Integer number) {
+            result = number > 100 ? "Large number: " + number : "Small number: " + number;
+        } else if (obj instanceof Double number) {
+            result = "Double value: " + number;
+        } else if (obj == null) {
+            result = "Null value";
+        } else {
+            result = "Unknown type: " + obj.getClass().getSimpleName();
+        }
+
         System.out.println("Object: " + obj);
         System.out.println("Result: " + result);
         System.out.println();

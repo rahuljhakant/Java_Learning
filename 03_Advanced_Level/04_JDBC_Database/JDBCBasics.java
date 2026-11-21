@@ -34,9 +34,10 @@ import java.util.List;
 public class JDBCBasics {
     
     // Database connection parameters
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/javatutorial";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "password";
+    private static final String DB_URL = System.getenv().getOrDefault(
+            "DB_URL", "jdbc:mysql://localhost:3306/javatutorial");
+    private static final String DB_USER = System.getenv().getOrDefault("DB_USER", "");
+    private static final String DB_PASSWORD = System.getenv().getOrDefault("DB_PASSWORD", "");
     
     public static void main(String[] args) {
         System.out.println("=== JDBC Basics Demo ===");

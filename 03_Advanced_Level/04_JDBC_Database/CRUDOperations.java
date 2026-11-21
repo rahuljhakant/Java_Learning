@@ -33,9 +33,10 @@ import java.util.List;
  */
 public class CRUDOperations {
     
-    private static final String URL = "jdbc:mysql://localhost:3306/javatutorial";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "password";
+    private static final String URL = System.getenv().getOrDefault(
+            "DB_URL", "jdbc:mysql://localhost:3306/javatutorial");
+    private static final String USERNAME = System.getenv().getOrDefault("DB_USER", "");
+    private static final String PASSWORD = System.getenv().getOrDefault("DB_PASSWORD", "");
     
     public static void main(String[] args) {
         System.out.println("=== CRUD Operations Demo ===");

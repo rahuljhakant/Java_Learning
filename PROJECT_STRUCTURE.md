@@ -1,5 +1,10 @@
 # Java Tutorial Repository - Project Structure
 
+This file is a conceptual overview, not a generated inventory. For runnable
+modules and commands, use the root [README](README.md) and each module's guide.
+JavaFX and Android workflows are separate from the root Maven build; the
+Spring Boot sample folder is illustrative rather than a standalone project.
+
 ## 📁 Complete Directory Structure
 
 ```
@@ -89,7 +94,7 @@ Java_Tutorial/
 │   │   ├── EventHandling.java        # ActionListener, etc.
 │   │   └── README.md                 # GUI documentation
 │   │
-│   ├── 04_JDBC_Database_Connectivity/
+│   ├── 04_JDBC_Database/
 │   │   ├── DatabaseConnection.java   # JDBC basics
 │   │   ├── CRUDOperations.java       # Create, Read, Update, Delete
 │   │   └── README.md                 # Database documentation

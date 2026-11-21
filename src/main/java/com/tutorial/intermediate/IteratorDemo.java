@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.HashMap;
-import Collection;
+import java.util.Collection;
 
 /**
  * Iterator Demo - Mastering Collection Iteration in Java

@@ -3,8 +3,8 @@ package com.tutorial.intermediate;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
-import Pattern;
-import Matcher;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * String Demo - Mastering String Operations in Java

@@ -53,6 +53,11 @@ By the end of this level, you will be able to:
 - **Spring Boot**: Application framework
 - **Hibernate**: Object-relational mapping
 
+### 8. Backend, Persistence, and Operations
+- [Runnable HTTP/JSON API and backend concepts](../14_Backend_Development/)
+- [JPA, Hibernate, Flyway migrations, and persistence tests](../15_Persistence/)
+- [Linux, Docker, deployment, and monitoring workflows](../16_Operations/)
+
 ## 📁 Directory Structure
 
 ```
@@ -73,7 +78,7 @@ By the end of this level, you will be able to:
 │   ├── EventHandling.java
 │   ├── LayoutManagers.java
 │   └── README.md
-├── 04_JDBC_Database_Connectivity/
+├── 04_JDBC_Database/
 │   ├── DatabaseConnection.java
 │   ├── CRUDOperations.java
 │   ├── Transactions.java
@@ -98,6 +103,10 @@ By the end of this level, you will be able to:
 │   └── README.md
 └── README.md (this file)
 ```
+
+The Spring Boot project source is an illustrative, standalone example and is
+not wired into the root Maven application. For an executable API that builds
+with the repository's Java 17 setup, see [Backend Development](../14_Backend_Development/).
 
 ## 🚀 Getting Started
 

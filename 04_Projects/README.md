@@ -55,12 +55,11 @@ These projects are designed to:
 │   │   ├── PaginatedResponse.java
 │   │   ├── StatusUpdate.java
 │   │   └── README.md
-│   └── Desktop_App_JavaFX/
-│       ├── MainApplication.java
-│       ├── UserInterface.java
-│       └── README.md
 └── README.md (this file)
 ```
+
+JavaFX is a separate platform-specific guide, not a project folder in this
+tree. Follow the [JavaFX guide](../17_Specializations/) to build it separately.
 
 ## 🚀 Getting Started
 
@@ -118,7 +117,7 @@ These projects are designed to:
 **Projects**:
 1. **Multi-threaded Web Scraper**: Concurrent web scraping with thread management
 2. **RESTful API with Spring Boot**: Complete REST API with CRUD operations
-3. **Desktop App with JavaFX**: Modern GUI application with data binding
+3. **JavaFX desktop application**: Follow the separate [JavaFX specialization guide](../17_Specializations/).
 
 ## 🛠️ Technology Stack
 
@@ -137,7 +136,7 @@ These projects are designed to:
 - **Spring Boot**: 3.0+
 - **Maven**: Build automation
 - **JUnit**: Unit testing
-- **JavaFX**: GUI development
+- **JavaFX**: Optional desktop toolkit; see the platform-specific guide
 - **Concurrency**: Multithreading and parallel processing
 
 ## 📖 How to Use These Projects

@@ -177,18 +177,16 @@ public class ConditionalStatements {
             System.out.println("You are too young to drive.");
         }
         
-        // Another example - login system
-        String username = "admin";
-        String password = "password123";
+        // Control-flow exercise only; authentication must use a real identity system.
+        boolean usernameMatches = true;
+        boolean passwordMatches = true;
         boolean isAccountActive = true;
         
         System.out.println("\nLogin attempt:");
-        System.out.println("Username: " + username);
-        System.out.println("Password: " + password);
         System.out.println("Account Active: " + isAccountActive);
         
-        if (username.equals("admin")) {
-            if (password.equals("password123")) {
+        if (usernameMatches) {
+            if (passwordMatches) {
                 if (isAccountActive) {
                     System.out.println("Login successful!");
                 } else {
